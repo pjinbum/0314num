@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.mainmenu{
+    margin: 30px 20px;
+    
+
+}
+
+.mainmenu:hover .sublist{
+    display: block;
+}
+
+
+
+.mainmenu >a {
+    color:  #fff;
+    font-size: 20px;
+}
+
+.sublist {
+    color: gray;
+    display: none;
+    text-align: center;
+    background-color: #fff;
+    
+   
+    
+
+}
+
+.sublist > li {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 400ms ease-in-out;
+    z-index: 100;
+}
